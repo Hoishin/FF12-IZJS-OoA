@@ -12,6 +12,15 @@ div.list {
   display: none;
 }
 
+div.multi {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+div.multi > div.row {
+  flex: auto;
+}
+
 li {
   font-size: 14px;
 }
