@@ -19,6 +19,9 @@ div.multi {
 }
 div.multi > div.row {
   flex: auto;
+  border: 2px solid grey;
+  border-collapse: collapse;
+  padding: 3px
 }
 
 li {
