@@ -6,6 +6,15 @@ $(document).ready(function() {
     $(this).next('.list').slideToggle(200);
   });
 
+  // show all tabs
+  $('div.showAll').click(function() {
+    $('div.list').show();
+  })
+
+  // close all tabs
+  $('div.closeAll').click(function() {
+    $('div.list').hide();
+  })
   // Tooltips for Japanese names
   $('span').tooltip();
 
